@@ -43,6 +43,23 @@ Output:
 | Zack |
 +------+
 
-Answer SQL:
-Answer T-SQL:
-Answer Oracle:
+--Answer MySQL:
+
+select name from Customer
+where referee_id != 2
+or referee_id is null
+
+
+--Answer T-SQL:
+
+select name from Customer
+where referee_id != 2
+or referee_id is null
+
+
+--Answer Oracle:
+
+select name from Customer
+where referee_id != 2
+or referee_id is null
+
