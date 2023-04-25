@@ -47,6 +47,24 @@ Output:
 | Algeria     | 37100000   | 2381741 |
 +-------------+------------+---------+
 
-Answer SQL:
-Answer T-SQL:
-Answer Oracle:
+--Answer SQL:
+
+select name, population, area from World
+where population >= 25000000
+or area >= 3000000
+
+
+--Answer T-SQL:
+
+select name, population, area from World
+where population >= 25000000
+or area >= 3000000
+
+
+--Answer Oracle:
+
+select name, population, area from World
+where population >= 25000000
+or area >= 3000000
+
+
