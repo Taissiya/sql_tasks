@@ -42,6 +42,22 @@ Output:
 +-------------+
 Explanation: Only products 1 and 3 are both low fat and recyclable.
 
-Answer SQL:
-Answer T-SQL:
-Answer Oracle:
+--Answer SQL:
+
+select product_id from Products 
+where low_fats = 'Y'
+and recyclable = 'Y'
+
+
+--Answer T-SQL:
+
+select product_id from Products 
+where low_fats = 'Y'
+and recyclable = 'Y'
+
+
+--Answer Oracle:
+
+select product_id from Products 
+where low_fats = 'Y'
+and recyclable = 'Y'
